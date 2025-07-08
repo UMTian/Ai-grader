@@ -14,7 +14,7 @@ class OCRService:
     def __init__(self):
         """Initialize Gemini API client"""
         self.api_key = os.getenv("GEMINI_API_KEY", "")
-        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+        self.base_url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
         if not self.api_key:
             st.warning("Gemini API key not found. Image OCR will not be available.")
