@@ -6,7 +6,7 @@ from typing import Optional
 import base64
 import requests
 import json
-os.environ["GEMINI_API_KEY"] = "AIzaSyDvQq3Oy473VEX9qj7UiqIoTR70uIhD_2w"
+os.environ["GEMINI_API_KEY"] = "AIzaSyAlHLlldZXWqW5P_fHH0UHDE-2sKk-n8FM"
 
 class OCRService:
     """Service for extracting text from images using Google Gemini API"""
@@ -222,3 +222,4 @@ class OCRService:
 
         except Exception:
             return False
+
