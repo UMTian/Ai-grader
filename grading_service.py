@@ -4,7 +4,7 @@ import re
 from typing import Dict, List, Any, Optional
 import requests
 import os
-os.environ["GEMINI_API_KEY"] = "AIzaSyDvQq3Oy473VEX9qj7UiqIoTR70uIhD_2w"
+os.environ["GEMINI_API_KEY"] = "AIzaSyAlHLlldZXWqW5P_fHH0UHDE-2sKk-n8FM"
 
 class GradingService:
     """Service for grading assignments using Google Gemini API"""
@@ -343,3 +343,4 @@ Please ensure your response is valid JSON format."""
 
         except Exception:
             return False
+
